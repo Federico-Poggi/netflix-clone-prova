@@ -1,0 +1,50 @@
+main{
+    margin-top: 100px;
+}
+
+.footer-info{
+    font-size: 0.8em;
+    color: rgb(74, 74, 74);
+}
+
+#service{
+    font-size: 0.8em;
+    color: rgb(74, 74, 74);
+    border-color: grey;
+    border: 1px solid rgb(75, 75, 75);
+}
+
+#copy{
+    color: rgb(75, 75, 75);
+}
+
+
+#list{
+    visibility: hidden;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+@media  screen and (min-width: 0px) and (max-width: 625px){
+    #navlink{
+        display: none;
+    }
+
+    #list{
+        visibility: visible;
+    }
+
+    #nav{
+        justify-content:space-between;
+    }
+
+    #footer{
+        display: none;
+    }
+
+    .hidden{
+        visibility: visible;
+    }
+}
