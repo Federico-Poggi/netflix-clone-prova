@@ -16,10 +16,10 @@
     />
     <link rel="stylesheet" href="home.css" />
   </head>
-  <body class="bg-dark">
+  <body class="bg-dark h-100">
     <div class="container-fluid p-0">
       <nav
-        class="navbar d-flex flex-row position-fixed top-0 w-100 overflow-hidden justify-content-sm-between p-0"
+        class="navbar d-flex flex-row position-fixed top-0 w-100 overflow-hidden justify-content-sm-between p-0 z-3"
       >
         <div id="nav" class="nav col-12 align-items-center bg-black m-0 p-3">
           <img
@@ -49,7 +49,7 @@
             class="container-sm d-flex justify-content-end w-25 m-0 dropdown"
           >
             <button id="dropBtn" class="btn bg-transparent">
-              <i class="bi bi-list text-white fs-3"></i>
+              <i class="bi bi-list text-light fs-3"></i>
             </button>
             <!-- <div id="drop" class="">
               <a href="#" class="dropdown-item">Home</a>
@@ -62,75 +62,291 @@
         </div>
       </nav>
     </div>
-
-    <main class="ps-sm-4 mt-6">
+    <main class="ps-sm-3 mt-6">
       <div class="container-fluid p-0 ps-4">
         <div class="d-flex align-items-center">
           <h2 class="fs-3 text-light my-3">TV Show</h2>
           <div class="" id="drop" data-bs-toggle="dropdown">
             <div
-              class="border-light btn bg-transparent text-light dropdown-toggle m-4"
+              class="border-light btn bg-transparent text-light dropdown-toggle mx-4"
             >
               Genres
             </div>
-            <div class="dropdown-menu" aria-labelledby="drop">
-              <a class="dropdown-item" href="">a</a>
-              <a class="dropdown-item" href="">a</a>
-              <a class="dropdown-item" href="">a</a>
-              <a class="dropdown-item" href="">a</a>
-              <a class="dropdown-item" href="">a</a>
+            <div class="dropdown-menu bg-dark" aria-labelledby="drop">
+              <a class="dropdown-item text-light itemGen" href="">Tv Series</a>
+              <a class="dropdown-item text-light itemGen" href="">Movies</a>
+              <a class="dropdown-item text-light itemGen" href="">Romantic</a>
+              <a class="dropdown-item text-light itemGen" href="">Horror</a>
+              <a class="dropdown-item text-light itemGen" href="">Wow</a>
             </div>
           </div>
         </div>
-        <div>
+        <div class="">
           <h3 class="card-title text-light fs-6 mb-2 mt-4">Trending Now</h3>
-          <div class="overflow-x-scroll d-flex">
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
+          <div class="container-fluid p-0 d-flex">
+            <div class="card w-25 border-0 h-100">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
+            <div class="card w-25 border-0 h-100 m-1">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
+            <div class="card w-25 border-0 h-100 m-1">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
+            <div class="card w-25 border-0 h-100 m-1">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
           </div>
         </div>
-        <div>
-          <h3 class="card-title text-light fs-6 mb-2 mt-5">Watch it Again</h3>
-          <div class="overflow-x-scroll d-flex">
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
+        <div class="">
+          <h3 class="card-title text-light fs-6 mb-2 mt-4">Trending Now</h3>
+          <div class="container-fluid p-0 d-flex">
+            <div class="card w-25 border-0 h-100 m-1">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
+            <div class="card w-25 border-0 h-100 m-1">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
+            <div class="card w-25 border-0 h-100 m-1">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
+            <div class="card w-25 border-0 h-100 m-1">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
           </div>
         </div>
-        <div>
-          <h3 class="card-title text-light fs-6 mb-2 mt-5">New Releases</h3>
-          <div class="overflow-x-scroll d-flex">
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
-            <img src="Netflix-assets/assets/media/media1.jpg" alt="thum" />
+        <div class="">
+          <h3 class="card-title text-light fs-6 mb-2 mt-4">Trending Now</h3>
+          <div class="container-fluid p-0 d-flex">
+            <div class="card w-25 border-0 h-100 m-1">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
+            <div class="card w-25 border-0 h-100 m-1">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
+            <div class="card w-25 border-0 h-100 m-1">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
+            <div class="card w-25 border-0 h-100 m-1">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="">
+          <h3 class="card-title text-light fs-6 mb-2 mt-4">Trending Now</h3>
+          <div class="container-fluid p-0 d-flex">
+            <div class="card w-25 border-0 h-100 m-1">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
+            <div class="card w-25 border-0 h-100 m-1">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
+            <div class="card w-25 border-0 h-100 m-1">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
+            <div class="card w-25 border-0 h-100 m-1">
+              <img
+                class="card-img h-100"
+                src="Netflix-assets/assets/media/media1.jpg"
+                alt="img"
+              />
+              <section
+                class="card-footer bg-black d-flex justify-content-between h-25"
+              >
+                <i class="bi bi-info-circle text-light"></i>
+                <i class="bi bi-three-dots-vertical text-light"></i>
+              </section>
+            </div>
           </div>
         </div>
       </div>
     </main>
 
-    <footer class="mt-5">
+    <footer class="position-fixed bottom-0 bg-black w-100">
+      <div
+        class="btn-group bg-black d-flex justify-content-evenly"
+        id="btnGroup"
+      >
+        <button
+          class="btn bg-transparent d-flex flex-column align-items-center"
+        >
+          <i class="bi bi-house text-light"></i>
+          <h6 class="buttonRef text-light fw-lighter">Home</h6>
+        </button>
+        <button
+          class="btn btn bg-transparent d-flex flex-column align-items-center"
+        >
+          <i class="bi bi-file-play text-light"></i>
+          <h6 class="buttonRef text-light fw-lighter">News</h6>
+        </button>
+        <button
+          class="btn bg-transparent d-flex flex-column align-items-center"
+        >
+          <i class="bi bi-arrow-down text-light"></i>
+          <h6 class="buttonRef text-light fw-lighter">Download</h6>
+        </button>
+
+        <button
+          class="btn bg-transparent d-flex flex-column align-items-center"
+        >
+          <img
+            id="profile"
+            src="Netflix-assets/assets/avatar.png"
+            alt="profile"
+          />
+          <h6 class="buttonRef text-light fw-lighter">Profile</h6>
+        </button>
+      </div>
       <div class="container-fluid mx-auto w-75" id="footer">
         <div class="w-100 d-flex justify-content-sm-center my-2">
           <i class="text-black w-50 bi bi-instagram"></i>
@@ -158,23 +374,11 @@
         <button class="bg-transparent" id="service">Service Code</button>
       </div>
 
-      <div class="container-sm mx-auto hidden">
-        <div class="d-flex justify-content-center text-light">
-          <i class="px-2 bi bi-facebook"></i>
-          <i class="px-2 bi bi-facebook"></i>
-          <i class="px-2 bi bi-facebook"></i>
-          <i class="px-2 bi bi-facebook"></i>
-        </div>
-      </div>
-      <div
-        class="btn bg-transparent text-light border-1 mx-auto d-flex flex-column w-50 hidden"
-      >
-        About Us
-      </div>
-      <div class="container-sm mx-auto w 50 hidden text-center">
+      <!-- <div class="container-sm mx-auto w 50 hidden text-center">
         <p id="copy">&copy; 1997-2019 Netflix. Inc (i-00000000000)</p>
-      </div>
+      </div> -->
     </footer>
+
     <script src="home.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
